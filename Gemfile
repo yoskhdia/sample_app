@@ -8,7 +8,7 @@ gem 'rails', '4.1.4'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
   gem 'sqlite3'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '3.0.2'
 end
 group :production do
   gem 'pg'
@@ -16,7 +16,7 @@ group :production do
 end
 group :test do
   gem 'selenium-webdriver'
-  gem 'capybara'
+  gem 'capybara', '2.4.1'
 end
 
 # Use SCSS for stylesheets
